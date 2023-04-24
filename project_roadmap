@@ -1,0 +1,27 @@
+- [x]Create title for website 
+- [x] Create description of the website DONE
+- [x] Create Read.me DONE
+- Define the scoreboard layout
+- Implement the data source:
+  -Scrape the Premier League scores and standings data
+  -Parse the data and store it in a suitable format
+
+-Implement the scoreboard logic:
+  -Write Python code to update the scoreboard display with the latest data
+  -Define the rules for calculating scores, standings, and other metrics
+  -Implement error handling and fail-safe mechanisms
+
+-Implement the user interface:
+  -Develop a simple user interface to control the scoreboard display
+  -Define input methods (e.g. keyboard, remote control, web interface)
+  -Implement the input methods in Python code
+
+-Test and deploy the scoreboard:
+  -Test the scoreboard with sample data and verify its functionality
+  -Fine-tune the display and user interface based on feedback
+  -Deploy the scoreboard in its final location and perform a final test
+
+-Maintain and update the scoreboard:
+  -Monitor the scoreboard for issues and errors
+  -Update the scoreboard logic and user interface as needed
+  -Perform regular maintenance and hardware checks
