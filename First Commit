@@ -52,5 +52,17 @@ if __name__ == "__main__":
             print(key, '->', value)
             if(value == config["live_score_type"]):
                 current_competition = key
+ competition_no = int(input("Choose competition\nCurrent:[" + config["live_score_type"] + "]:") or current_competition)
+        print(competitions[competition_no])
+        config["live_score_type"] = competitions[competition_no]
 
+        config["weather_location"] = input("Enter your location (for weather display)\nCurrent:[" + config["weather_location"] + "]:") or config["weather_location"]
+
+        break
+
+    set_config(config)
+    print("********** Updating score and weather settings **********\n")
+    score_update.main()
+    weather_update.main()
+    print("********** It can take up to a minute to refresh the scoreboard  **********\n")
        
