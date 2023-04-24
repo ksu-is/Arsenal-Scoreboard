@@ -21,3 +21,8 @@
   -Test the scoreboard with sample data and verify its functionality
   -Fine-tune the display and user interface based on feedback
   -Deploy the scoreboard in its final location and perform a final test
+#menil will add feature to which scoreboard continously scrapes date and updates
+-Maintain and update the scoreboard:  
+  -Monitor the scoreboard for issues and errors
+  -Update the scoreboard logic and user interface as needed
+  -Perform regular maintenance and hardware checks
