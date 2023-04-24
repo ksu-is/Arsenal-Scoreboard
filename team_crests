@@ -1,0 +1,17 @@
+from PIL import Image
+
+teams = ['Arsenal', 'Aston Villa', 'Nottingham Forest', 'Brighton & Hove Albion', 'Bournemouth',
+         'Chelsea', 'Crystal Palace', 'Everton', 'Leeds United', 'Leicester City',
+         'Liverpool', 'Manchester City', 'Manchester United', 'Newcastle United',
+         'Brentford', 'Southampton', 'Tottenham Hotspur', 'Fulham', 'West Ham United',
+         'Wolverhampton Wanderers']
+
+for team in teams:
+    # Load the team crest image
+    img = Image.open(f'{team}.png')
+
+    # Resize the image to a smaller size if necessary
+    # img = img.resize((100, 100))
+
+    # Save the image as a PNG file
+    img.save(f'{team}.png')
