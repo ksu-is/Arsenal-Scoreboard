@@ -16,12 +16,4 @@
   -Define input methods (e.g. keyboard, remote control, web interface)
   -Implement the input methods in Python code
 
--Test and deploy the scoreboard:
-  -Test the scoreboard with sample data and verify its functionality
-  -Fine-tune the display and user interface based on feedback
-  -Deploy the scoreboard in its final location and perform a final test
 
--Maintain and update the scoreboard:
-  -Monitor the scoreboard for issues and errors
-  -Update the scoreboard logic and user interface as needed
-  -Perform regular maintenance and hardware checks
