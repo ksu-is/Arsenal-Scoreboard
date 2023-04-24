@@ -17,3 +17,7 @@
   -Implement the input methods in Python code
 
 
+-Test and deploy the scoreboard:
+  -Test the scoreboard with sample data and verify its functionality
+  -Fine-tune the display and user interface based on feedback
+  -Deploy the scoreboard in its final location and perform a final test
